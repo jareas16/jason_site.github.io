@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sistemas Gestores BD</title>
+    <link rel="icon" href="../imagenes/Database 2.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <header>
+        <h2>Formulario de contacto</h2>
+        
+    </header>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <table> 
+                <tr>
+                    <td>
+                        <label for="nombre">Nombres</label><br>
+                        <input required type="text" name="nombre" id="nombre" placeholder="Ingrese nombre">
+                    </td>
+                    <td>
+                        <label for="apellido">Apellidos</label><br>
+                        <input required type="text" name="apellido" id="apellido" placeholder="Ingrese apellidos">  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nac">Fecha de Nacimiento</label><br>
+                        <input required type="date" name="nac" id="nac" placeholder="Ingrese Fecha Nacimiento">
+                    </td>
+                    <td>
+                        <label for="DNI">Identificación</label><br>
+                        <input required type="text" name="tel" id="DNI" size="9" placeholder="Ingrese DNI">  
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Datos Contacto</legend>
+            <table> 
+                <tr>
+                    <td>
+                        <label for="telefono">Telefono</label><br>
+                        <input required type="number" name="telefono" id="telefono" placeholder="Ingrese telefono">
+                    </td>
+                    <td>
+                        <label for="email">Correo Electrónico</label><br>
+                        <input required type="email" name="email" id="email" placeholder="Ingrese email">  
+                    </td>
+                </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="Sugerencia">Escriba su queja o sugerencia</label><br>
+                    <textarea required cols="50" rows="10" name="sugenrencia" id="sugerencia"></textarea>
+                </td>
+            </tr>
+
+            </table>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+
+    </form>
+</body>
+</html>
